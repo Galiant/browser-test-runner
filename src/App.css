@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+
+.testWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 980px;
+  margin: auto;
+}
+
+.results {
+  padding: 30px;
+  margin-top: 20px;
+  border: 1px solid #fafafa;
+  order: 2;
+  width: 30%;
+}
+
+#done {
+  color: #7cfc00;
+}
+
+.buttonWrapper {
+  margin: auto;
+  max-width: 980px;
+}

@@ -1,0 +1,25 @@
+button {
+  border: 1px solid #fafafa;
+  color: #fafafa;
+  background-color: #696969;
+  padding: 0 30px;
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#tests {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: 1px solid #fafafa;
+  order: 1;
+  width: 65%;
+}
