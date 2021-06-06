@@ -75,17 +75,15 @@ const getTests = () => {
 
 const promiseRunTest = () => {
   return new Promise((resolve, reject) => {
-    setInterval(() => {
-      runTests();
+    runTests();
 
-      const error = false;
+    const error = false;
 
-      if (!error) {
-        resolve();
-      } else {
-        reject('Error: Something went wrong');
-      }
-    }, 0);
+    if (!error) {
+      resolve();
+    } else {
+      reject('Error: Something went wrong');
+    }
   });
 };
 

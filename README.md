@@ -41,3 +41,11 @@ All six tests should be run simultaneously. Using whatever design you like, make
 - An indication (such as "DONE!") when all tests are finished
 
 Initially, each test should be in the “Not Started” state, waiting for the user to press a button to run them. Once tests start running, the UI should update in real-time without needing further user interaction.
+
+## How to run
+
+1. Switch to directory `browser-test-runner`
+2. run `yarn install` in your terminal
+3. run `yarn start` in your terminal
+4. new browser tab should load (if no copy web address from your terminal to your browser - it should be something like `http://localhost:3000/`)
+5. to run tests click on `Start` button
