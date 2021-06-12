@@ -1,10 +1,8 @@
 ## Task
 
-We would like you to build an automated test runner that executes tests in the browser and reports on their results as soon as each test has completed.
+Build an automated test runner that executes tests in the browser and reports on their results as soon as each test has completed.
 
-The objective of this assignment is to give us an idea about how you write maintainable and scalable code, when working as part of a team. We are a big fan of React and Typescript, but feel free to use whatever language, framework, tools, and libraries you like!
-
-Start by copying the code below. It gives you a series of tests to run, which will randomly succeed or fail after running for a few seconds. Use these exact tests as the inputs to your test runner.
+Code below gives a series of tests to run, which will randomly succeed or fail after running for a few seconds. Using these exact tests as the inputs to test runner.
 
 ```javascript
 const makeDummyTest = () => {
@@ -32,7 +30,7 @@ const tests = [
 ];
 ```
 
-All six tests should be run simultaneously. Using whatever design you like, make sure that the user interface communicates the following:
+All six tests should be run simultaneously ensuring that the user interface communicates the following:
 
 - Status of each test (Not Started, Running, Passed, or Failed)
 - Number of tests that have passed so far
